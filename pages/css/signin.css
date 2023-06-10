@@ -1,0 +1,29 @@
+body{
+    background-image: url('https://static.zara.net/photos///2023/I/0/1/p/4110/243/400/2/w/1922/4110243400_9_1_1.jpg?ts=1686041782327');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 30%;
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 10%;
+}

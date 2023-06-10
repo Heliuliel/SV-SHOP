@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/products.css'>
+</head>
+
+<body>
+    <div id="MainDiv">
+        <h1>Products</h1>
+        <p id="welcome"></p>
+        <div id="selectDiv">
+            <select id="selectBtn">
+                <option value="lowtohigh">Price- low to high</option>
+                <option value="hithtolow">Price- high to low</option>
+            </select>
+            <button onclick="showProdocts()">Sort</button>
+
+        </div>
+        <div id="main"></div>
+        <a href="/buy"> <button onclick="buybtn()">Buy</button></a>
+
+    </div>
+    <script src='/js/products.js'></script>
+</body>
+
+</html>
